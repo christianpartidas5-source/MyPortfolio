@@ -1,0 +1,128 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --probe-rug-08219446figmasite-black-10: rgba(0, 0, 0, 0.1);
+  --probe-rug-08219446figmasite-black-20: rgba(0, 0, 0, 0.2);
+  --probe-rug-08219446figmasite-black-50: rgba(0, 0, 0, 0.5);
+  --probe-rug-08219446figmasite-black-90: rgba(0, 0, 0, 0.9);
+  --probe-rug-08219446figmasite-dodger-blue: #4d49fc;
+  --probe-rug-08219446figmasite-gray-chateau: #99a1af;
+  --probe-rug-08219446figmasite-heliotrope: #c27aff;
+  --probe-rug-08219446figmasite-heliotrope-20: rgba(173, 70, 255, 0.2);
+  --probe-rug-08219446figmasite-heliotrope-30: rgba(173, 70, 255, 0.3);
+  --probe-rug-08219446figmasite-heliotrope-50: rgba(194, 122, 255, 0.5);
+  --probe-rug-08219446figmasite-mauve: #dab2ff;
+  --probe-rug-08219446figmasite-mischka: #d1d5dc;
+  --probe-rug-08219446figmasite-white: #ffffff;
+  --probe-rug-08219446figmasite-white-02: rgba(255, 255, 255, 0);
+
+  /* Fonts */
+  --probe-rug-08219446figmasite-inter-bold-font-family: Inter-Bold, sans-serif;
+  --probe-rug-08219446figmasite-inter-bold-font-size: 11px;
+  --probe-rug-08219446figmasite-inter-bold-line-height: 16px;
+  --probe-rug-08219446figmasite-inter-bold-font-weight: 700;
+  --probe-rug-08219446figmasite-inter-bold-font-style: normal;
+  --probe-rug-08219446figmasite-inter-bold-font-family: Inter-Bold, sans-serif;
+  --probe-rug-08219446figmasite-inter-bold-font-size: 19.200000762939453px;
+  --probe-rug-08219446figmasite-inter-bold-line-height: 28px;
+  --probe-rug-08219446figmasite-inter-bold-font-weight: 700;
+  --probe-rug-08219446figmasite-inter-bold-font-style: normal;
+  --probe-rug-08219446figmasite-inter-bold-font-family: Inter-Bold, sans-serif;
+  --probe-rug-08219446figmasite-inter-bold-font-size: 19.5px;
+  --probe-rug-08219446figmasite-inter-bold-line-height: 28px;
+  --probe-rug-08219446figmasite-inter-bold-font-weight: 700;
+  --probe-rug-08219446figmasite-inter-bold-font-style: normal;
+  --probe-rug-08219446figmasite-inter-bold-font-family: Inter-Bold, sans-serif;
+  --probe-rug-08219446figmasite-inter-bold-font-size: 23.399999618530273px;
+  --probe-rug-08219446figmasite-inter-bold-line-height: 32px;
+  --probe-rug-08219446figmasite-inter-bold-font-weight: 700;
+  --probe-rug-08219446figmasite-inter-bold-font-style: normal;
+  --probe-rug-08219446figmasite-inter-bold-font-family: Inter-Bold, sans-serif;
+  --probe-rug-08219446figmasite-inter-bold-font-size: 58.099998474121094px;
+  --probe-rug-08219446figmasite-inter-bold-line-height: 60px;
+  --probe-rug-08219446figmasite-inter-bold-font-weight: 700;
+  --probe-rug-08219446figmasite-inter-bold-font-style: normal;
+  --probe-rug-08219446figmasite-inter-medium-font-family: Inter-Medium,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-medium-font-size: 10.800000190734863px;
+  --probe-rug-08219446figmasite-inter-medium-line-height: 16px;
+  --probe-rug-08219446figmasite-inter-medium-font-weight: 500;
+  --probe-rug-08219446figmasite-inter-medium-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 14.800000190734863px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 14.899999618530273px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 15px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 14.600000381469727px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 15.100000381469727px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 15.300000190734863px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 15.5px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 24px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+  --probe-rug-08219446figmasite-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --probe-rug-08219446figmasite-inter-regular-font-size: 18.600000381469727px;
+  --probe-rug-08219446figmasite-inter-regular-line-height: 32.5px;
+  --probe-rug-08219446figmasite-inter-regular-font-weight: 400;
+  --probe-rug-08219446figmasite-inter-regular-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+[data-probe-rug-08219446figmasite-mode="mode-1"] {
+  /* mode-1 */
+  --color-violet-74: #c27aff;
+  --color-violet-85: #dab2ff;
+  --color-azure-84: #d1d5dc;
+  --color-white-solid: #ffffff;
+  --color-black-90: rgba(0, 0, 0, 0.9);
+  --color-black-50: rgba(0, 0, 0, 0.5);
+  --color-violet-4: #0a0015;
+  --color-violet-10: #1a0033;
+  --color-violet-6: #0f001f;
+  --color-black-20: rgba(0, 0, 0, 0.2);
+  --color-violet-64-20: rgba(173, 70, 255, 0.2);
+  --color-rose-69: #fb64b6;
+  --color-azure-66: #51a2ff;
+  --color-violet-64-30: rgba(173, 70, 255, 0.3);
+  --color-rose-82: #fda5d5;
+  --color-azure-78: #8ec5ff;
+  --color-violet-52: #9810fa;
+  --color-rose-45: #e60076;
+  --color-white-02: rgba(255, 255, 255, 0);
+  --color-violet-74-50: rgba(194, 122, 255, 0.5);
+  --color-azure-64: #99a1af;
+  --color-blue-64: #4d49fc;
+  --color-black-10: rgba(0, 0, 0, 0.1);
+}
